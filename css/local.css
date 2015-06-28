@@ -470,6 +470,46 @@ left: 30%;
   line-height: 24px;
   }
   
+  .social_logos > span {
+  background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+height: 27px;
+  width: 26px;
+  display: inline-block;
+  margin-right: 7px;
+  }
+  
+  .facebook {
+  background-image: url(../images/fb.png);
+  }
+  .twitter {
+    background-image: url(../images/tw.png);
+  }
+  .pinterest {
+    background-image: url(../images/pi.png);
+	}
+  .youtube {
+    background-image: url(../images/yt.png);
+	}
+  
+  footer.related-section section.footer ul {
+    float: left;
+  width: 31%;
+  margin: 0 5px;
+  color: #fff;
+  }
+  
+      footer.related-section section.footer ul b {
+color: #fff;
+  }
+  
+    footer.related-section section.footer ul a {
+color: #fff;
+text-decoration:none;
+  }
+  
+  
 @media only screen and (max-width: 480px) {
 main.main-section section .thumbnail .caption {
   min-height: 46vw;
@@ -609,173 +649,3 @@ main.main-section section .thumbnail .caption {
 @media only screen and (min-width: 1200px) {
 
 }
-
-/*Old Footer Styles*/
-
-ul {
-  list-style: none outside;
-}
-
- .main-footer-content .item {
- 	float: left;
- 	width: 33%;
- 	text-align: center;
- }
- .main-footer-content .healthbutton a{ width:229px; height:36px; background: url(../images/footer_pro.jpg) no-repeat 0 0;
-  background-size: contain; display:block; margin-left: 6px; margin-top: -3px;}
- .main-footer-content .healthbutton a img{display: none;}
- .main-footer-content .healthbutton a:hover{
- 	background: url(../images/footer_pro_hover.gif.png) no-repeat 0 1px;
-	  background-size: contain;
- }
- .main-footer-content .item:first-child {
- 	text-align: left;
-	 	width: 36%;
- }
- .main-footer-content .item:last-child {
- 	text-align: right;
- 	float: right;
-	 	width: 31%;
- }
- .main-footer-copyright {
- 	font-size: 12px;
- 	color: #979797;
- }
- .main-footer-copyright A {
- 	color: #979797;
- 	text-decoration: underline;
- }
- .main-footer-copyright A:hover {
- 	text-decoration: none;
- }
- .security-badges {
- 	margin-bottom:20px;
- 	margin-top: 7px;
- }
- .image_box{
- }
- .flag1{
- 	float:right;
- 	width:48px;
- 	height:45px;
- 	background-image:url("../images/footer_lang.png");
- 	background-repeat:no-repeat;
- 	background-position:0px 0px;
- }
- .flag2{
- 	float:right;
- 	width:50px;
- 	height:45px;
- 	background-image:url("../images/footer_lang.png");
- 	background-repeat:no-repeat;
- 	background-position:-67px 0px;
- 	margin-left: 5px;
- }
- .flag3{
- 	float:right;
- 	width:48px;
- 	height:45px;
- 	background-image:url("../images/footer_lang.png");
- 	background-repeat:no-repeat;
- 	background-position: -133px 0px;
- 	margin-left: 5px;
- }
- .flag4{
- 	float:right;
- 	width:48px;
- 	height:45px;
- 	background-image:url("../images/footer_lang.png");
- 	background-repeat:no-repeat;
- 	background-position: -196px 0px;
- 	margin-left: 5px;
- }
- #cart_items{
- 	font-size:14px;
- }
- .foter-map a{
- 	display:block;
- 	background:url(../images/footer_sec.png);
-background-size: 690%;
-  width: 32px;
-  height: 30px;
- }
- 
- .flag-box {
- 	float: right;
- 	width: 157px;
- 	position: relative;
- 	text-align: center;
- 	height: 0px;
- }
- .flag-box span{
- 	display: block;
- 	font-size: 12px;
- }
- .flags-list span{
- 	font-size: 15px;
- }
- .flag-box a{
- 	display: block;
- 	float: left;
- 	margin-left: 10px;
- 	color: #979797;
- 	padding-bottom: 10px;
- }
- .flag-box a:hover{
- 	text-decoration: none;
- }
- .flag-box ul{
- 	position: absolute;
- 	bottom: 0px;
- 	right: 0px;
- 	width: 160px;
- 	background: #5e83a8;
- 	-moz-box-shadow: 2px 2px 6px rgba( 0, 0, 0, 0.7 );
- 	-webit-box-shadow: 2px 2px 6px rgba( 0, 0, 0, 0.7 );
- 	box-shadow: 2px 2px 6px rgba( 0, 0, 0, 0.7 );
- 	-webkit-border-radius: 0 20px 0 0;
- 	-moz-border-radius: 0 20px 0 0;
- 	border-radius: 0 20px 0 0;
- 	z-index: 99999999;
- 	opacity:1;
- 	filter:alpha(opacity=00); /* For IE8 and earlier */
- }
- .flag-box ul span{
- 	padding-top:2px;
- }
- .flag-box ul a{
- 	float: none;
- 	margin: 0;
- 	overflow: hidden;
- 	text-align: left;
- 	padding: 0px;
- 	color: white;
- 	display: block;
- 	padding: 2px;
- }
-
- .flag-box ul a:hover{
- 	background: #d1d1d3;
- 	color: #577fa6;
- }
- .flag-box ul li.no-br a:hover{
- 	-webkit-border-radius: 0 20px 0 0;
- 	-moz-border-radius: 0 20px 0 0;
- 	border-radius: 0 20px 0 0;
- }
-
- .flag-box ul a img{
- 	margin-right: 5px;
- }
- .flag-box ul li{
- 	border-bottom: 1px solid #497095;
-
- }
- .flag-box ul li:last-child{
- 	border: none;
- }
- .flag-box ul img{
- 	float: left;
- }
-
-/*  END  */
