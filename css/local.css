@@ -677,6 +677,9 @@ font-size:70px;
 body {
   font-size: 9px;
   }
+  footer.related-section section.main > div {
+  font-size: 13px;
+}
 }
 
 @media only screen and (min-width: 1200px) {
